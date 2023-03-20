@@ -1,0 +1,12 @@
+[package]
+name = "prototype3_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = "0.20.1"
+emath = "0.20.0"
+tracing-subscriber = "0.3"
+nalgebra = { version = "0.32.1", features = ["rand"] }
